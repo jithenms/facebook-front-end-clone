@@ -1,0 +1,40 @@
+.sponsored {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.sponsored:hover {
+    background-color: #3a3b3c;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.sponsoredItems {
+    display: block;
+    border-bottom: 2px solid #3a3b3c;
+    margin-top: -45px;
+}
+
+.sponsored>img {
+    width: 125px;
+    border-radius: 10px;
+}
+
+.items>h4 {
+    color: #b0b3b8;
+}
+
+.items>p {
+    color: #b0b3b8;
+}
+
+.items {
+    display: block;
+    margin-left: 15px;
+}
+
+
+

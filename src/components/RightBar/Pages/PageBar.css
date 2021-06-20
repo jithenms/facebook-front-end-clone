@@ -1,0 +1,89 @@
+.pages {
+    display: flex;
+}
+
+.pageItem {
+    display: flex;
+    align-items: center;
+    padding-right: 200px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.pageItem:hover {
+    background-color: #3a3b3c;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.pageItems {
+    align-items: center;
+    margin-top: -50px;
+    margin-right: 20px;
+    padding: 10px;
+    border-bottom: 2px solid #3a3b3c;
+}
+
+.notifications:hover {
+    background-color: #3a3b3c;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.createAd:hover {
+    background-color: #3a3b3c;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.pageItem>h4{
+    color: #b0b3b8;
+}
+
+
+.page_pic {
+    margin: 10px;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+}
+
+.pageAction {
+    margin-top: -20px;
+    flex: 1;
+}
+
+.notifications {
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+    padding-left: 32px;
+}
+
+.notifications>.MuiSvgIcon-root {
+    margin-right: 5px;
+    font-size: x-large;
+    color: #b0b3b8;
+}
+
+.createAd>.MuiSvgIcon-root {
+    margin-right: 5px;
+    font-size: x-large;
+    color: #b0b3b8;
+}
+
+
+.createAd {
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+    padding-left: 32px;
+}
+
+.notifications>p {
+    color: #b0b3b8;
+}
+
+.createAd>p {
+    color: #b0b3b8;
+}

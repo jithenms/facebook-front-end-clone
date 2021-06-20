@@ -9,7 +9,9 @@
     z-index: 100;
     top: 0;
     box-shadow: 0px 5px 8px -9px rgba(0,0,0,0.75);
+    border-bottom: 2px solid #3a3b3c;
     flex: '1 0 auto',
+
 }
 
 .header_left {
@@ -40,6 +42,11 @@
     background-color: transparent;
     outline-width: 0;
 
+    text-overflow: ellipsis;
+
+  /* Required for text-overflow to do anything */
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .header_input>input::placeholder{

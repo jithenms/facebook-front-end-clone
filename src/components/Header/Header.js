@@ -33,7 +33,7 @@ function useWindowSize() {
   }
 
 const Header = () => {
-
+    
     const size = useWindowSize();
     
     function placeholder() {
@@ -54,7 +54,7 @@ const Header = () => {
                 <img src={brand_logo} alt="Facebook Logo"/>
             </div>
             <div className="header_input">
-                <SearchIcon />
+                <SearchIcon/>
                 <input style={{"color": "#b0b3b8"}} placeholder={placeholder()} type="text"/>
             </div>
             <div className="header_center">
@@ -70,7 +70,7 @@ const Header = () => {
             </div>
             <div className="header_right">
                 <div className="header_info">
-                    <Avatar />
+                    <Avatar src="https://avatars.githubusercontent.com/u/67240543?v=4"/>
                     <h4>{mockPerson.firstName}</h4>
                 </div>
                 <div className="header_info icons">

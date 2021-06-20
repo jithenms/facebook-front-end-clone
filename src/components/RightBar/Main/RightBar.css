@@ -1,0 +1,47 @@
+.rightbar_section {
+    padding-top: 25px;
+    display: block;
+    margin: 25px;     
+    position: fixed;
+    right: 0;          
+    top: 0;          
+    text-align: left;
+}
+.sponsored>h4 {
+    align-items: center;
+    color: #b0b3b8;
+}
+
+.sponsored {
+    margin-bottom: 20px;
+}
+
+.pages>h4 {
+    align-items: center;
+    color: #b0b3b8;
+}
+
+.contacts {
+    margin-bottom: 20px;
+}
+
+.contacts>h4 {
+    align-items: center;
+    color: #b0b3b8;
+}
+
+.pages {
+    margin-bottom: 20px;
+}
+
+
+@media screen 
+ and (max-width: 1024px) 
+ and (min-width: 100px)  {
+
+    .rightbar_section {
+        display: none;
+    }
+
+ }
+

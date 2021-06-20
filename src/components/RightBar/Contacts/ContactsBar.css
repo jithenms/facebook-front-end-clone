@@ -1,0 +1,15 @@
+.contactItem {
+        align-items: center;
+        display: flex;
+}
+
+.contactItem>h4{
+    color: #b0b3b8;
+}
+
+.page_pic_2 {
+    margin: 10px;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+}
