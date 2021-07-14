@@ -12,7 +12,7 @@ import ExpandMoreOutlined from '@material-ui/icons/ExpandMoreOutlined'
 const Sidebar = () => {
     return (
         <div className="sidebar">
-            <SidebarRow src="https://scontent.ftpa1-1.fna.fbcdn.net/v/t1.6435-9/92245179_249196586230097_7625111261725851648_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=Kxxa_mfs5tUAX9PrGaX&_nc_ht=scontent.ftpa1-1.fna&oh=a86625e8c4fe4711bb9b6066be98f460&oe=60D47C00" title="John" />
+            <SidebarRow src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6zes53m4a_2VLTcmTn_bHk8NO5SkuWfcQbg&usqp=CAU" title="John" />
             <SidebarRow Icon={LocalHospitalIcon}
             title="Covid 19 Information Center"/>
 
